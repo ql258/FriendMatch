@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  // "compilerOptions": {
+  //   "incremental": true,
+  //   "tsBuildInfoFile": "<path-to-your-build-info-file>",
+  // }
+}

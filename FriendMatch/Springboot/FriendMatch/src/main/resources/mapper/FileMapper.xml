@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ql.friendmatch.mapper.FileMapper">
+
+    <resultMap id="BaseResultMap" type="com.ql.friendmatch.model.domain.ImgFile">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="fileName" column="fileName" jdbcType="VARCHAR"/>
+        <result property="uploadTime" column="uploadTime" jdbcType="TIMESTAMP"/>
+        <result property="url" column="url" jdbcType="VARCHAR"/>
+        <result property="isDelete" column="isDelete" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,fileName,uploadTime,url,
+        isDelete
+    </sql>
+</mapper>
